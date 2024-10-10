@@ -1,0 +1,16 @@
+include: package:very_good_analysis/analysis_options.yaml
+
+language:
+    strict-raw-types: false
+linter:
+  rules:
+    public_member_api_docs: false
+    cascade_invocations: false
+    only_throw_errors: false
+    one_member_abstracts: false
+    use_setters_to_change_properties: false
+    prefer_function_declarations_over_variables: false
+
+analyzer:
+  errors:
+    inference_failure_on_instance_creation: ignore
