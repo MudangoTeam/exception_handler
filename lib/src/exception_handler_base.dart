@@ -39,6 +39,7 @@ class ExceptionHandler {
   Future<void> _init() async {
     runZonedGuarded(
       () {
+        WidgetsFlutterBinding.ensureInitialized();
         runApp(rootWidget);
       },
       _sendMail,
