@@ -1,10 +1,10 @@
 # This is a generated file; do not edit or check into version control.
-connectivity_plus=/Users/gvillegasc/.pub-cache/hosted/pub.dev/connectivity_plus-3.0.6/
-device_info_plus=/Users/gvillegasc/.pub-cache/hosted/pub.dev/device_info_plus-8.2.2/
-network_info_plus=/Users/gvillegasc/.pub-cache/hosted/pub.dev/network_info_plus-3.0.5/
-package_info_plus=/Users/gvillegasc/.pub-cache/hosted/pub.dev/package_info_plus-3.1.2/
-path_provider=/Users/gvillegasc/.pub-cache/hosted/pub.dev/path_provider-2.1.1/
-path_provider_android=/Users/gvillegasc/.pub-cache/hosted/pub.dev/path_provider_android-2.2.1/
-path_provider_foundation=/Users/gvillegasc/.pub-cache/hosted/pub.dev/path_provider_foundation-2.3.1/
+connectivity_plus=/Users/gvillegasc/.pub-cache/hosted/pub.dev/connectivity_plus-6.1.0/
+device_info_plus=/Users/gvillegasc/.pub-cache/hosted/pub.dev/device_info_plus-10.1.2/
+network_info_plus=/Users/gvillegasc/.pub-cache/hosted/pub.dev/network_info_plus-6.1.1/
+package_info_plus=/Users/gvillegasc/.pub-cache/hosted/pub.dev/package_info_plus-8.1.1/
+path_provider=/Users/gvillegasc/.pub-cache/hosted/pub.dev/path_provider-2.1.5/
+path_provider_android=/Users/gvillegasc/.pub-cache/hosted/pub.dev/path_provider_android-2.2.10/
+path_provider_foundation=/Users/gvillegasc/.pub-cache/hosted/pub.dev/path_provider_foundation-2.4.0/
 path_provider_linux=/Users/gvillegasc/.pub-cache/hosted/pub.dev/path_provider_linux-2.2.1/
-path_provider_windows=/Users/gvillegasc/.pub-cache/hosted/pub.dev/path_provider_windows-2.2.1/
+path_provider_windows=/Users/gvillegasc/.pub-cache/hosted/pub.dev/path_provider_windows-2.3.0/

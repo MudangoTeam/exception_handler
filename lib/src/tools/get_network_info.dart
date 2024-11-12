@@ -6,12 +6,12 @@ Future<String> getNetworkType() async {
   final networkInfo = NetworkInfo();
   final wifiIPv4Addr = await networkInfo.getWifiIP();
 
-  if (connectivityResult == ConnectivityResult.mobile) {
+  if (connectivityResult.contains(ConnectivityResult.mobile)) {
     return '''
         Connected by: Mobile data <br>
         IP: $wifiIPv4Addr
       ''';
-  } else if (connectivityResult == ConnectivityResult.wifi) {
+  } else if (connectivityResult.contains(ConnectivityResult.wifi)) {
     return '''
         Connected by: Wi-Fi <br>
         IP: $wifiIPv4Addr

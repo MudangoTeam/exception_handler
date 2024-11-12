@@ -75,8 +75,8 @@ class ExceptionHandler {
       await send(message, smtpServer);
     } on MailerException catch (e) {
       logger.e(
-        'EXCEPTION HANDLER',
-        '''ENVIROMENT => $environment\nREQUEST TYPE => $e''',
+        'EXCEPTION HANDLER\n ENVIROMENT => $environment',
+        error: e,
       );
     }
   }
@@ -90,7 +90,7 @@ class ExceptionHandler {
     final body = stack.toString().replaceAll('#', '<br>#');
 
     // ignore: leading_newlines_in_multiline_strings
-    return '''              
+    return '''
               <p>
                 ---------------------
                 <br>ERROR<br>
