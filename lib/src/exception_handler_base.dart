@@ -11,7 +11,6 @@ import 'package:path_provider/path_provider.dart';
 
 class ExceptionHandler {
   ExceptionHandler({
-    required this.rootWidget,
     required this.username,
     required this.password,
     required this.subject,
@@ -20,11 +19,8 @@ class ExceptionHandler {
     required this.globalKey,
     required this.onUserInfo,
     required this.onIsActiveExceptionHandler,
-  }) {
-    _init();
-  }
+  });
 
-  final Widget rootWidget;
   final String username;
   final String password;
   final String subject;
@@ -36,17 +32,7 @@ class ExceptionHandler {
 
   final logger = Logger();
 
-  Future<void> _init() async {
-    runZonedGuarded(
-      () {
-        WidgetsFlutterBinding.ensureInitialized();
-        runApp(rootWidget);
-      },
-      _sendMail,
-    );
-  }
-
-  Future<void> _sendMail(Object error, StackTrace stack) async {
+  Future<void> sendMail(Object error, StackTrace stack) async {
     if (!await onIsActiveExceptionHandler()) {
       return;
     }
